@@ -28,10 +28,19 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  @media (max-width: 768px) {
+    .bankAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  }
   
   .line {
-    width: 100vw;
-    position: fixed;
+    width: 100%;
+    position: absolute;
     left: 0;
   }
 </style>

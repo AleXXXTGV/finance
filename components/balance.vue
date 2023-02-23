@@ -1,12 +1,17 @@
 <template>
     <div class="balance">
-        <h1>7777</h1>
+        <h1>5970000</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'balance'
+    name: 'balance',
+    methods: {
+        balance() {
+            return this.$store.state.balance
+        }
+    }
 }
 </script>
 

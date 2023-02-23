@@ -1,7 +1,7 @@
 <template>
-    <div class="historyItem">
+    <div class="historyItem stonksItem">
         <p class="number">
-            10000
+           bones - saSESH 
         </p>
         <p class="comment">
             На бичару
@@ -22,5 +22,12 @@ export default {
     width: 100%;
     padding: 8px;
     font-size: 32px;
+}
+.notStonksItem {
+    color: red;
+}
+
+.stonksItem {
+    color: greenyellow;
 }
 </style>

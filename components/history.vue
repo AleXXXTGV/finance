@@ -29,6 +29,7 @@ export default {
     border: 3px solid #FFFFFF;
     border-radius: 10px;
     padding-top: 50px;
+    overflow-y: scroll;
 }
 
 .historyContainer {
@@ -36,5 +37,7 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
+    max-height: 490px;
 }
 </style>
